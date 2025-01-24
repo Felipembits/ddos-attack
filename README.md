@@ -94,4 +94,24 @@ sudo hping3 -S -p 80 --flood --rand-source [IP_DO_SERVIDOR]
 Com essa estrutura, o conteúdo está mais organizado, com explicações claras e formatadas.
 
 
-Repositórios de referência: https://github.com/dunossauro/live-de-python/blob/main/codigo/Live206/dunotop.py
+## Repositórios de referência: 
+https://github.com/dunossauro/live-de-python/blob/main/codigo/Live206/dunotop.py
+
+#### Sobre o código
+
+Neste repositório construímos em python um fornedor de dados como: Memória principal e Swap, Bateria, CPU e alguns outros para monitorar os pedidos e recursos utilizados no WSL.
+
+Antes de rodar, certifique-se de ter o python3 já instalado em sua distribuição linux.
+
+Em seguida, execute:
+
+```bash  
+ pip install -r requirements.txt  
+``` 
+(caso não funcione, instale as dependências usando 
+
+```bash  
+   apt get python3-<NOMEDADEP>
+``` 
+)
+
