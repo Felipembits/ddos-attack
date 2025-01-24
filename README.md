@@ -92,3 +92,6 @@ sudo hping3 -S -p 80 --flood --rand-source [IP_DO_SERVIDOR]
 --- 
 
 Com essa estrutura, o conteúdo está mais organizado, com explicações claras e formatadas.
+
+
+Repositórios de referência: https://github.com/dunossauro/live-de-python/blob/main/codigo/Live206/dunotop.py
